@@ -15,7 +15,6 @@ export default {
   name: 'c-time-block',
   data() {
     return {
-        cur_time: '12:00',
         blocks: deepCopy(blocks),
         selected_blocks: []
     }
