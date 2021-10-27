@@ -1,0 +1,43 @@
+export const blocks = [{
+    text: 1,
+    status: 'selected'
+}, {
+    text: 2,
+    status: 'unselected'
+}, {
+    text: 3,
+    status: 'disabled'
+}, {
+    text: 4,
+    status: 'unselected'
+}, {
+    text: 5,
+    status: 'unselected'
+}, {
+    text: 6,
+    status: 'unselected'
+}, {
+    text: 7,
+    status: 'unselected'
+}, {
+    text: 8,
+    status: 'unselected'
+}, {
+    text: 9,
+    status: 'unselected'
+}, {
+    text: 10,
+    status: 'unselected'
+}, {
+    text: 11,
+    status: 'unselected'
+}, {
+    text: 12,
+    status: 'unselected'
+}, {
+    text: 13,
+    status: 'unselected'
+}, {
+    text: 14,
+    status: 'unselected'
+}]
