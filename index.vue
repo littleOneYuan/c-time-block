@@ -20,6 +20,12 @@ export default {
     }
   },
   props: {
+      clear: {
+          type: Boolean,
+          default() {
+              return false
+          }
+      },
       num: {
           type: Number,
           default() {
@@ -42,6 +48,13 @@ export default {
                     blo.status = blo.status==='disabled'?'unselected':blo.status
                 }
             })
+      },
+      clear(n, o) {
+          if(n) {
+            this.blocks.map(i => i.status='unselected')
+            this.selected_blocks = []
+            this.$emit('getBlocks', this.selected_blocks)
+          }
       }
   },
   methods: {
